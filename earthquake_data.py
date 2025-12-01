@@ -46,6 +46,7 @@ class Data:
         self.veri_isle(self.veri_cek()) # Veriyi Çekme ve İşleme
         self.df = pd.DataFrame(self.deprem_listesi) # Deprem Verilerini DataFrame'e Dönüştürme
 
-if __name__ == "__main__":
+if __name__ == "__main__": # test amaçlı çalıştırma
     data = Data()
     data.dataframe_olustur()
+    print(data.df.head(15)) # DataFrame'in İlk 15 Satırını Yazdırma
