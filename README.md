@@ -1,4 +1,4 @@
----DEPREM ANALİZ PROJESİ---
+# ---DEPREM ANALİZ PROJESİ---
 
 # Proje Amacı
 * AFAD'ın websitesindeki deprem verilerini kullanarak bir analiz gerçekleştirmek.
